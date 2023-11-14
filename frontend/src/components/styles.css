@@ -1,0 +1,69 @@
+.messages {
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+  scrollbar-width: none;
+}
+
+.title-main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  width: 100%;
+  @media screen and (max-width: 768px) {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-left: -100px;
+  }
+}
+
+.profile {
+  display: flex;
+  @media screen and (max-width: 768px) {
+    padding-left: -150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* display: flex;
+    align-items: left; */
+  }
+}
+
+.name-message {
+  padding-top: 5px;
+  font-weight: 500;
+  @media screen and (max-width: 768px) {
+    margin-top: -10px;
+  }
+}
+
+.profile-Images {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 1px solid rgb(134, 134, 134);
+  margin-right: 12px;
+  @media screen and (max-width: 768px) {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+.profile-Images img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: contain;
+  @media screen and (max-width: 768px) {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+.edit-model {
+  position: absolute;
+  right: 25px;
+}

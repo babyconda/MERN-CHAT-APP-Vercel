@@ -1,0 +1,22 @@
+.updateGroupImage {
+  outline: 4px solid #38b2ac;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.EditCameraPlus {
+  font-size: 35px;
+  margin-top: -50px;
+  margin-left: 110px;
+  color: white;
+  border-radius: 50%;
+  padding: 2px;
+  background-color: #38b2ac;
+}
+
+.EditCameraPlus:hover {
+  background-color: white;
+  color: #38b2ac;
+  cursor: pointer;
+  border-radius: 50%;
+}

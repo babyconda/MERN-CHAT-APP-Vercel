@@ -1,0 +1,20 @@
+.editGroupImage {
+  margin-top: 10px;
+}
+
+.cameraPlus {
+  font-size: 35px;
+  margin-top: -50px;
+  margin-left: 110px;
+  color: rgba(14, 13, 13, 0.918);
+  border-radius: 50%;
+  padding: 2px;
+  background-color: white;
+}
+
+.cameraPlus:hover {
+  background-color: white;
+  color: #38b2ac;
+  cursor: pointer;
+  border-radius: 50%;
+}

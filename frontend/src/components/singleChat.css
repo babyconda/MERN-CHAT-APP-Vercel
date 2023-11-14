@@ -1,0 +1,20 @@
+.title {
+  display: flex;
+  /* align-items: center; */
+  justify-content: space-evenly;
+}
+.profile-Image {
+  /* width: 60px;
+  height: 50px;
+  border-radius: 50%; */
+  width: 150%;
+  background-color: #e8e8e8;
+  border: 1px solid black;
+  margin-right: 20px;
+}
+.profile-Image img {
+  width: 150%;
+  /* height: 50px; */
+  /* border-radius: 50%; */
+  object-fit: fill;
+}
